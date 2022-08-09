@@ -1,0 +1,57 @@
+.explorecrypto {
+    background-color: #f2f6fb;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 90%);
+    padding: 8rem 0;
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        padding: 3rem 1rem;
+        .left{
+            .description{
+                padding: 1rem 0;
+            }
+        }
+        .right {
+            .wrap {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 6px;
+                justify-content: center;
+
+                .card {
+                    width: 170px;
+                    background-color: #fff;
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 20px 0;
+
+                    >img {
+                        display: block;
+                        object-fit: cover;
+                        width: 30%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .explorecrypto {
+        .container {
+            grid-template-columns: repeat(1, 1fr);
+            .right {
+                .wrap{
+                    .card {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

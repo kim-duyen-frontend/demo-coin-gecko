@@ -1,0 +1,55 @@
+.earnpassive {
+    background-color: #fff;
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        padding: 3rem 1rem;
+
+        .left {
+            >img {
+                width: 50%;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+
+                &:hover {
+                    transform: scale(1.1);
+                    transition: 0.5s ease-in-out;
+                }
+            }
+        }
+
+        .right {
+            .input-container {
+                >input {
+                    width: 40%;
+                    height: 30px;
+                    border: 1px solid #cacaca;
+                    padding: 0 0 0 10px;
+                }
+
+                >.btn {
+                    margin-left: 5px;
+                    padding: 6px;
+                }
+            }
+            .title{
+
+            }
+            .description{
+                padding: 1rem 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .earnpassive {
+        .container {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}

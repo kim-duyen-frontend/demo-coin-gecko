@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/demo-coin-gecko/static/css/main.83de7f4e.css",
+    "main.js": "/demo-coin-gecko/static/js/main.087e4df3.js",
+    "static/js/787.eb1b1b89.chunk.js": "/demo-coin-gecko/static/js/787.eb1b1b89.chunk.js",
+    "static/media/phone-trade.png": "/demo-coin-gecko/static/media/phone-trade.a2c09083fbde76e9cac2.png",
+    "static/media/hero-img.png": "/demo-coin-gecko/static/media/hero-img.66b9eb77caa3ac6d4fe8.png",
+    "index.html": "/demo-coin-gecko/index.html",
+    "main.83de7f4e.css.map": "/demo-coin-gecko/static/css/main.83de7f4e.css.map",
+    "main.087e4df3.js.map": "/demo-coin-gecko/static/js/main.087e4df3.js.map",
+    "787.eb1b1b89.chunk.js.map": "/demo-coin-gecko/static/js/787.eb1b1b89.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83de7f4e.css",
+    "static/js/main.087e4df3.js"
+  ]
+}
